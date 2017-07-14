@@ -1,0 +1,68 @@
+%levelContent = new t2dSceneGraph(stacker) {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "0 0";
+      cameraSize = "100 75";
+
+   new t2dStaticSprite() {
+      imageMap = "BackgroundImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      size = "100.000 75.000";
+      Layer = "30";
+         mountID = "2";
+   };
+   new t2dStaticSprite(playLight) {
+      imageMap = "LightImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      class = "Light";
+      Position = "62.172 -32.734";
+      size = "5.000 5.000";
+         currentColumn = "0";
+         currentRow = "0";
+         mountID = "3";
+         previousColumn = "0";
+   };
+   new t2dTileLayer(gameBoard) {
+      LayerFile = "~/data/tilemaps/GameBoard.lyr";
+      canSaveDynamicFields = "1";
+      size = "35.000 69.999";
+      Layer = "15";
+      CollisionMaxIterations = "1";
+         mountID = "4";
+   };
+};

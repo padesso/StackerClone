@@ -1,0 +1,14 @@
+<TorsionProjectOptions>
+<Address>127.0.0.1</Address>
+<Password>password</Password>
+<Port>6060</Port>
+<LastConfig>Release</LastConfig>
+<Breakpoints/>
+<Bookmarks/>
+<OpenFiles>
+<File ScrollX="0" ScrollY="18">game\gameScripts\stacker.cs</File>
+<File ScrollX="0" ScrollY="0" Active="true">game\gameScripts\timer.cs</File>
+<File ScrollX="0" ScrollY="1">game\gameScripts\game.cs</File>
+<File ScrollX="0" ScrollY="6">game\main.cs</File>
+</OpenFiles>
+</TorsionProjectOptions>
